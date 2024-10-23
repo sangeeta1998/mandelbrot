@@ -105,7 +105,7 @@ rust_native_image="sangeetakakati/mandelbrot-native:latest"
 wasm_image="sangeetakakati/mandelbrot-wasm:wasm"
 
 # Set the number of iterations for each test
-iterations=10
+iterations=15
 
 # Measure execution time until main function starts with forced fresh pull
 echo -e "\nTesting with forced fresh pull:"

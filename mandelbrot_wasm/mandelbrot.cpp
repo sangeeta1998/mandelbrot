@@ -45,9 +45,9 @@ void generate_mandelbrot(int width, int height, int max_iterations, const char* 
 }
 
 int main() {
-    const int width = 800;
-    const int height = 800;
-    const int max_iterations = 100;
+    const int width = 1024;
+    const int height = 1024;
+    const int max_iterations = 500;
     const char* filename = "/output/mandelbrot.png";
 
     // Record the start time
